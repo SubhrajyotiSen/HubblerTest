@@ -1,0 +1,11 @@
+[
+
+  {'field-name':'name', 'type':'text'},
+
+  {'field-name':'age', 'type':'number', 'min':18, 'max':65},
+
+  {'field-name':'gender', 'type':'dropdown', 'options':['male', 'female', 'other']},
+
+  {'field-name':'address', 'type':'multiline'}
+
+]
