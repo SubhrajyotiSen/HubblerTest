@@ -80,7 +80,8 @@ public class CustomViewHandler {
                 break;
             case "multiline":
                 editText = new EditText(context);
-                editText.setInputType(InputType.TYPE_TEXT_FLAG_MULTI_LINE);
+                editText.setSingleLine(false);
+                editText.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_FLAG_MULTI_LINE);
                 view = editText;
                 break;
             default:
